@@ -1,1 +1,17 @@
 #EXTM3U x-tvg-url="schedule.xml"
+#EXTINF:-1 tvg-id="est" tvg-name="Toonami Aftermath East" group-title="Toonami Aftermath", Toonami Aftermath East
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+#EXTINF:-1 tvg-id="pst" tvg-name="Toonami Aftermath West" group-title="Toonami Aftermath", Toonami Aftermath West
+http://api.toonamiaftermath.com:3000/pst/playlist.m3u8
+#EXTINF:-1 tvg-id="snickelodeon-east" tvg-name="Snickelodeon East" group-title="Toonami Aftermath", Snickelodeon East
+http://api.toonamiaftermath.com:3000/snickelodeon-east/playlist.m3u8
+#EXTINF:-1 tvg-id="snickelodeon-west" tvg-name="Snickelodeon West" group-title="Toonami Aftermath", Snickelodeon West
+http://api.toonamiaftermath.com:3000/snickelodeon-west/playlist.m3u8
+#EXTINF:-1 tvg-id="mtv97" tvg-name="MTV97" group-title="Toonami Aftermath", MTV97
+http://api.toonamiaftermath.com:3000/mtv97/playlist.m3u8
+#EXTINF:-1 tvg-id="movies" tvg-name="Movies" group-title="Toonami Aftermath", Movies
+http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+#EXTINF:-1 tvg-id="radio" tvg-name="Toonami Aftermath Radio" group-title="Toonami Aftermath", Toonami Aftermath Radio
+http://api.toonamiaftermath.com:3000/radio/playlist.m3u8
+#EXTINF:-1 tvg-id="live-code" tvg-name="Live Code" group-title="Toonami Aftermath", Live Code
+http://api.toonamiaftermath.com:3000/live-code/playlist.m3u8
