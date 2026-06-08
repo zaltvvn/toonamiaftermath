@@ -9,16 +9,16 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 BASE_URL = "https://api.toonamiaftermath.com"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
-# Bảng cấu hình cố định (Chống lỗi API thay đổi)
+# Bảng cấu hình V4: Tách biệt server_slug (để lấy link) và epg_id (để hiển thị file đẹp)
 CHANNEL_MAPS = {
-    "Toonami Aftermath East": {"slug": "est", "sched": "Toonami Aftermath EST", "west": False},
-    "Toonami Aftermath West": {"slug": "pst", "sched": "Toonami Aftermath EST", "west": True},
-    "Snickelodeon East": {"slug": "snickelodeon-east", "sched": "Snickelodeon EST", "west": False},
-    "Snickelodeon West": {"slug": "snickelodeon-west", "sched": "Snickelodeon EST", "west": True},
-    "MTV97": {"slug": "mtv97", "sched": "MTV97", "west": False},
-    "Movies": {"slug": "movies", "sched": "Movies", "west": False},
-    "Toonami Aftermath Radio": {"slug": "radio", "sched": "Radio", "west": False},
-    "Live Code": {"slug": "live-code", "sched": "Live Code", "west": False}
+    "Toonami Aftermath East": {"server_slug": "est", "epg_id": "toonamiaftermath-east", "sched": "Toonami Aftermath EST", "west": False},
+    "Toonami Aftermath West": {"server_slug": "pst", "epg_id": "toonamiaftermath-west", "sched": "Toonami Aftermath EST", "west": True},
+    "Snickelodeon East": {"server_slug": "snickelodeon-east", "epg_id": "snickelodeon-east", "sched": "Snickelodeon EST", "west": False},
+    "Snickelodeon West": {"server_slug": "snickelodeon-west", "epg_id": "snickelodeon-west", "sched": "Snickelodeon EST", "west": True},
+    "MTV97": {"server_slug": "mtv97", "epg_id": "mtv97", "sched": "MTV97", "west": False},
+    "Movies": {"server_slug": "movies", "epg_id": "movies", "sched": "Movies", "west": False},
+    "Toonami Aftermath Radio": {"server_slug": "radio", "epg_id": "radio", "sched": "Radio", "west": False},
+    "Live Code": {"server_slug": "live-code", "epg_id": "live-code", "sched": "Live Code", "west": False}
 }
 
 def get_current_time_rfc3339(offset_hours=0):
@@ -42,8 +42,22 @@ def get_channels():
         res = requests.get(url, headers=HEADERS, params=params, verify=False, timeout=10)
         if res.status_code == 200: return res.json()
     except Exception as e:
-        print(f"Lỗi tải kênh: {e}")
+        print(f"❌ Lỗi tải kênh: {e}")
     return []
+
+def get_stream_url(server_slug, is_west=False):
+    url = f"{BASE_URL}/streamUrl"
+    params = {"channelName": server_slug, "timezoneOffset": "5", "useHttps": "true"}
+    if is_west: params["streamDelay"] = "180" 
+    try:
+        res = requests.get(url, headers=HEADERS, params=params, verify=False, timeout=10)
+        if res.status_code == 200 and res.text.strip():
+            link = res.text.strip().strip('"')
+            if link.startswith("http"): return link
+    except:
+        pass
+    # Link dự phòng chuẩn của server nếu API streamUrl bị lỗi
+    return f"http://api.toonamiaftermath.com:3000/{server_slug}/playlist.m3u8"
 
 def get_schedule(schedule_name):
     url = f"{BASE_URL}/media"
@@ -60,19 +74,22 @@ def get_schedule(schedule_name):
     return []
 
 def main():
-    print("🚀 BẮT ĐẦU CHẠY SCRIPT V3...")
+    # Ghi log múi giờ VN (UTC+7) để tiện theo dõi tiến trình trên GitHub Actions
+    vn_time = datetime.now(timezone.utc) + timedelta(hours=7)
+    print(f"🚀 BẮT ĐẦU CHẠY SCRIPT V4 (Cập nhật lúc: {vn_time.strftime('%Y-%m-%d %H:%M:%S')} - Giờ VN)...")
+    
     raw_channels = get_channels()
     
-    # Đảm bảo dữ liệu là danh sách
+    # Đảm bảo dữ liệu là một danh sách hợp lệ
     if isinstance(raw_channels, dict):
         raw_channels = raw_channels.get("channels") or raw_channels.get("data") or []
 
     if not raw_channels:
-        print("❌ API không trả về kênh nào. Dừng lại!")
+        print("❌ API không trả về danh sách kênh nào. Dừng tiến trình!")
         return
 
     m3u_lines = ["#EXTM3U x-tvg-url=\"schedule.xml\""]
-    xml_root = ET.Element("tv", {"generator-info-name": "Toonami Aftermath Automated Scraper V3"})
+    xml_root = ET.Element("tv", {"generator-info-name": "Toonami Aftermath Automated Scraper V4"})
 
     for chan in raw_channels:
         name = chan.get("name") or chan.get("Name", "Unknown")
@@ -80,18 +97,21 @@ def main():
             continue # Bỏ qua kênh rác
             
         cfg = CHANNEL_MAPS[name]
-        slug = cfg["slug"]
-        m3u_url = f"http://api.toonamiaftermath.com:3000/{slug}/playlist.m3u8"
+        server_slug = cfg["server_slug"]
+        epg_id = cfg["epg_id"]
+        
+        # 1. Khởi tạo link stream bằng server_slug
+        m3u_url = get_stream_url(server_slug, cfg["west"])
 
-        # 1. Ghi file M3U
-        m3u_lines.append(f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}" group-title="Toonami Aftermath", {name}')
+        # 2. Ghi file M3U bằng epg_id
+        m3u_lines.append(f'#EXTINF:-1 tvg-id="{epg_id}" tvg-name="{name}" group-title="Toonami Aftermath", {name}')
         m3u_lines.append(m3u_url)
 
-        # 2. Tạo XML Channel
-        chan_el = ET.SubElement(xml_root, "channel", id=slug)
+        # 3. Tạo XML Channel bằng epg_id
+        chan_el = ET.SubElement(xml_root, "channel", id=epg_id)
         ET.SubElement(chan_el, "display-name", lang="en").text = name
 
-        # 3. Quét lịch chiếu
+        # 4. Quét lịch chiếu
         schedule = get_schedule(cfg["sched"])
         if not schedule and "media" in chan:
             schedule = chan["media"] # Dùng lịch dự phòng từ API tổng
@@ -112,7 +132,8 @@ def main():
             else:
                 stop_time = to_xmltv_time(start_str, minutes_add=30)
                 
-            prog_el = ET.Element("programme", channel=slug)
+            # Ghi thông tin chương trình gắn liền với epg_id
+            prog_el = ET.Element("programme", channel=epg_id)
             if start_time: prog_el.set("start", start_time)
             if stop_time: prog_el.set("stop", stop_time)
             ET.SubElement(prog_el, "title", lang="en").text = str(title_text)
@@ -127,7 +148,7 @@ def main():
     try: ET.indent(tree, space="  ", level=0)
     except: pass
     tree.write("schedule.xml", encoding="utf-8", xml_declaration=True)
-    print("✨ ĐÃ LƯU DỮ LIỆU THÀNH CÔNG!")
+    print("✨ ĐÃ LƯU M3U VÀ XMLTV THÀNH CÔNG!")
 
 if __name__ == "__main__":
     main()
