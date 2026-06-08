@@ -1,6 +1,10 @@
 import requests
+import urllib3
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+
+# Tắt cảnh báo bảo mật khi bỏ qua kiểm tra SSL (để log hiển thị sạch đẹp)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 BASE_URL = "https://api.toonamiaftermath.com"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -29,7 +33,8 @@ def get_channels():
     start_date = get_current_time_rfc3339(offset_hours=-2)
     url = f"{BASE_URL}/channelsCurrentMedia"
     params = {"startDate": start_date}
-    response = requests.get(url, headers=HEADERS, params=params)
+    # Thêm verify=False để bỏ qua lỗi chứng chỉ SSL
+    response = requests.get(url, headers=HEADERS, params=params, verify=False)
     return response.json() if response.status_code == 200 else []
 
 def get_stream_url(slug, is_west=False):
@@ -38,16 +43,18 @@ def get_stream_url(slug, is_west=False):
     params = {"channelName": slug, "timezoneOffset": "5", "useHttps": "true"}
     if is_west:
         params["streamDelay"] = "180" 
-    response = requests.get(url, headers=HEADERS, params=params)
+    # Thêm verify=False để bỏ qua lỗi chứng chỉ SSL
+    response = requests.get(url, headers=HEADERS, params=params, verify=False)
     return response.text.strip() if response.status_code == 200 else ""
 
 def get_schedule(schedule_name, count=50):
-    """Lấy lịch phát sóng (Tăng số lượng lên 50 tập để EPG dài và đầy đủ)"""
+    """Lấy lịch phát sóng"""
     sched_name = schedule_name.replace("East", "EST").replace("West", "EST")
-    date_string = get_current_time_rfc3339(offset_hours=-3) # Lấy từ 3 tiếng trước để bao quát phim đang chạy
+    date_string = get_current_time_rfc3339(offset_hours=-3)
     url = f"{BASE_URL}/media"
     params = {"scheduleName": sched_name, "dateString": date_string, "count": count, "addBlockCard": "true"}
-    response = requests.get(url, headers=HEADERS, params=params)
+    # Thêm verify=False để bỏ qua lỗi chứng chỉ SSL
+    response = requests.get(url, headers=HEADERS, params=params, verify=False)
     return response.json() if response.status_code == 200 else []
 
 def main():
@@ -63,7 +70,7 @@ def main():
     # Khởi tạo XMLTV gốc
     xml_root = ET.Element("tv", {"generator-info-name": "Toonami Aftermath Automated Scraper"})
 
-    # Bước 1: Định nghĩa danh sách kênh trong XMLTV và tạo danh sách M3U
+    # Bước 1: Định nghĩa danh sách kênh
     for channel in channels:
         name = channel.get("Name", "Unknown")
         slug = channel.get("Slug")
@@ -76,16 +83,14 @@ def main():
         if not m3u_url.startswith("http"):
             continue
 
-        # Thêm vào file M3U (Liên kết tvg-id khớp với ID trong XML)
         m3u_lines.append(f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}" group-title="Toonami Aftermath", {name}')
         m3u_lines.append(m3u_url)
 
-        # Thêm vào file XML đầu mục <channel>
         chan_el = ET.SubElement(xml_root, "channel", id=slug)
         display_name = ET.SubElement(chan_el, "display-name", lang="en")
         display_name.text = name
 
-    # Bước 2: Quét lịch phát sóng và thêm chương trình (<programme>) vào XML
+    # Bước 2: Quét lịch phát sóng
     for channel in channels:
         name = channel.get("Name", "Unknown")
         slug = channel.get("Slug")
@@ -106,14 +111,11 @@ def main():
             start_str = item.get("StartDate", "")
             start_time = to_xmltv_time(start_str)
             
-            # Tính toán thời gian kết thúc (bằng thời gian bắt đầu của chương trình kế tiếp)
             if i < len(schedule) - 1:
                 stop_time = to_xmltv_time(schedule[i+1].get("StartDate", ""))
             else:
-                # Nếu là chương trình cuối cùng trong danh sách, giả định thời lượng là 30 phút
                 stop_time = to_xmltv_time(start_str, minutes_add=30)
                 
-            # Tạo thẻ <programme>
             prog_el = ET.Element("programme", channel=slug)
             if start_time: prog_el.set("start", start_time)
             if stop_time: prog_el.set("stop", stop_time)
@@ -128,14 +130,11 @@ def main():
             xml_root.append(prog_el)
 
     # --- GHI DỮ LIỆU RA FILE ---
-    # 1. Ghi file M3U
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_lines))
     print("💾 Đã lưu file playlist.m3u")
 
-    # 2. Ghi file XMLTV
     tree = ET.ElementTree(xml_root)
-    # Thụt lề XML nhìn cho đẹp (Chỉ hỗ trợ Python 3.9+)
     try:
         ET.indent(tree, space="  ", level=0)
     except:
