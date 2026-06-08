@@ -1,0 +1,50 @@
+name: Auto Generate Toonami IPTV Files
+
+on:
+  workflow_dispatch: # Cho phép nhấn nút chạy thủ công
+  schedule:
+    # Cứ mỗi 6 tiếng chạy một lần (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Cấp quyền ghi để GitHub Actions có thể đẩy file lên repo
+
+    steps:
+      # 1. Lấy mã nguồn từ repo về máy ảo
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Cài đặt môi trường Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. Cài đặt thư viện cần thiết (Chỉ cần requests)
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      # 4. Chạy Script để tạo ra playlist.m3u và schedule.xml
+      - name: Run Scraper Script
+        run: python toonami_scraper.py
+
+      # 5. Đẩy ngược 2 file vừa tạo lên GitHub Repo của bạn
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Thêm các file vào hàng đợi commit
+          git add playlist.m3u schedule.xml
+          
+          # Kiểm tra xem có sự thay đổi nào không, nếu có mới commit để tránh lỗi trống dữ liệu
+          if git diff --staged --quiet; then
+            echo "Không có thay đổi nào trong lịch chiếu."
+          else
+            git commit -m "Cập nhật lịch chiếu và playlist tự động [skip ci]"
+            git push
+          fi
