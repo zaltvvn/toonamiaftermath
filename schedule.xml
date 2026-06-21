@@ -3,58 +3,6 @@
   <channel id="toonamiaftermath-east">
     <display-name lang="en">Toonami Aftermath East</display-name>
   </channel>
-  <programme channel="toonamiaftermath-east" start="20260621061257 +0000" stop="20260621074151 +0000">
-    <title lang="en">Rifftrax - Curse of Bigfoot</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621074151 +0000" stop="20260621091251 +0000">
-    <title lang="en">MST3K - S08E21 - Time Chasers</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621091251 +0000" stop="20260621093454 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621093454 +0000" stop="20260621095041 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621095041 +0000" stop="20260621100437 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621100437 +0000" stop="20260621101810 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621101810 +0000" stop="20260621103036 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621103036 +0000" stop="20260621104258 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621104258 +0000" stop="20260621105427 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621105427 +0000" stop="20260621110535 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621110535 +0000" stop="20260621100000 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621100000 +0000" stop="20260621100000 +0000">
-    <title lang="en">Comic Corner</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621100000 +0000" stop="20260621101212 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 95</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621101212 +0000" stop="20260621102344 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 96</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621102344 +0000" stop="20260621103617 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 97</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260621103617 +0000" stop="20260621104820 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 98</desc>
-  </programme>
   <programme channel="toonamiaftermath-east" start="20260621104820 +0000" stop="20260621110627 +0000">
     <title lang="en">The Mighty Thor</title>
     <desc lang="en">Tập 8</desc>
@@ -182,65 +130,74 @@
     <title lang="en">Big O</title>
     <desc lang="en">Tập 18</desc>
   </programme>
-  <programme channel="toonamiaftermath-east" start="20260621205402 +0000" stop="20260621212402 +0000">
+  <programme channel="toonamiaftermath-east" start="20260621205402 +0000" stop="20260621212045 +0000">
     <title lang="en">Patlabor</title>
     <desc lang="en">Tập 11</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621212045 +0000" stop="20260621215045 +0000">
+    <title lang="en">Gundam 0080</title>
+    <desc lang="en">Tập 1</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621215045 +0000" stop="20260621221800 +0000">
+    <title lang="en">Gundam 0080</title>
+    <desc lang="en">Tập 2</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621221800 +0000" stop="20260621221800 +0000">
+    <title lang="en">Toonami After 8: The Ocho</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621221800 +0000" stop="20260621224138 +0000">
+    <title lang="en">Celebrity Deathmatch</title>
+    <desc lang="en">Tập 74</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621224138 +0000" stop="20260621230726 +0000">
+    <title lang="en">Initial D</title>
+    <desc lang="en">Tập 37</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621230726 +0000" stop="20260621233313 +0000">
+    <title lang="en">Initial D</title>
+    <desc lang="en">Tập 38</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621233313 +0000" stop="20260621235954 +0000">
+    <title lang="en">Fighting Spirit</title>
+    <desc lang="en">Tập 14</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260621235954 +0000" stop="20260622002400 +0000">
+    <title lang="en">Fighting Spirit</title>
+    <desc lang="en">Tập 15</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622002400 +0000" stop="20260622002435 +0000">
+    <title lang="en">Toonami AfterDark</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622002435 +0000" stop="20260622004842 +0000">
+    <title lang="en">Powerpuff Girls Z</title>
+    <desc lang="en">Tập 3</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622004842 +0000" stop="20260622011300 +0000">
+    <title lang="en">Powerpuff Girls Z</title>
+    <desc lang="en">Tập 4</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622011300 +0000" stop="20260622014037 +0000">
+    <title lang="en">Ghost in the Shell</title>
+    <desc lang="en">Tập 3</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622014037 +0000" stop="20260622020817 +0000">
+    <title lang="en">Ghost in the Shell</title>
+    <desc lang="en">Tập 4</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622020817 +0000" stop="20260622023519 +0000">
+    <title lang="en">Cowboy Bebop</title>
+    <desc lang="en">Tập 14</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622023519 +0000" stop="20260622030100 +0000">
+    <title lang="en">Cowboy Bebop</title>
+    <desc lang="en">Tập 15</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260622030100 +0000" stop="20260622033100 +0000">
+    <title lang="en">Fighting Spirit Champion Road</title>
   </programme>
   <channel id="toonamiaftermath-west">
     <display-name lang="en">Toonami Aftermath West</display-name>
   </channel>
-  <programme channel="toonamiaftermath-west" start="20260621061257 +0000" stop="20260621074151 +0000">
-    <title lang="en">Rifftrax - Curse of Bigfoot</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621074151 +0000" stop="20260621091251 +0000">
-    <title lang="en">MST3K - S08E21 - Time Chasers</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621091251 +0000" stop="20260621093454 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621093454 +0000" stop="20260621095041 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621095041 +0000" stop="20260621100437 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621100437 +0000" stop="20260621101810 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621101810 +0000" stop="20260621103036 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621103036 +0000" stop="20260621104258 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621104258 +0000" stop="20260621105427 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621105427 +0000" stop="20260621110535 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621110535 +0000" stop="20260621100000 +0000">
-    <title lang="en">Rifftrax Shorts</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621100000 +0000" stop="20260621100000 +0000">
-    <title lang="en">Comic Corner</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621100000 +0000" stop="20260621101212 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 95</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621101212 +0000" stop="20260621102344 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 96</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621102344 +0000" stop="20260621103617 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 97</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260621103617 +0000" stop="20260621104820 +0000">
-    <title lang="en">Spiderman</title>
-    <desc lang="en">Tập 98</desc>
-  </programme>
   <programme channel="toonamiaftermath-west" start="20260621104820 +0000" stop="20260621110627 +0000">
     <title lang="en">The Mighty Thor</title>
     <desc lang="en">Tập 8</desc>
@@ -368,49 +325,74 @@
     <title lang="en">Big O</title>
     <desc lang="en">Tập 18</desc>
   </programme>
-  <programme channel="toonamiaftermath-west" start="20260621205402 +0000" stop="20260621212402 +0000">
+  <programme channel="toonamiaftermath-west" start="20260621205402 +0000" stop="20260621212045 +0000">
     <title lang="en">Patlabor</title>
     <desc lang="en">Tập 11</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621212045 +0000" stop="20260621215045 +0000">
+    <title lang="en">Gundam 0080</title>
+    <desc lang="en">Tập 1</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621215045 +0000" stop="20260621221800 +0000">
+    <title lang="en">Gundam 0080</title>
+    <desc lang="en">Tập 2</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621221800 +0000" stop="20260621221800 +0000">
+    <title lang="en">Toonami After 8: The Ocho</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621221800 +0000" stop="20260621224138 +0000">
+    <title lang="en">Celebrity Deathmatch</title>
+    <desc lang="en">Tập 74</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621224138 +0000" stop="20260621230726 +0000">
+    <title lang="en">Initial D</title>
+    <desc lang="en">Tập 37</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621230726 +0000" stop="20260621233313 +0000">
+    <title lang="en">Initial D</title>
+    <desc lang="en">Tập 38</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621233313 +0000" stop="20260621235954 +0000">
+    <title lang="en">Fighting Spirit</title>
+    <desc lang="en">Tập 14</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260621235954 +0000" stop="20260622002400 +0000">
+    <title lang="en">Fighting Spirit</title>
+    <desc lang="en">Tập 15</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622002400 +0000" stop="20260622002435 +0000">
+    <title lang="en">Toonami AfterDark</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622002435 +0000" stop="20260622004842 +0000">
+    <title lang="en">Powerpuff Girls Z</title>
+    <desc lang="en">Tập 3</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622004842 +0000" stop="20260622011300 +0000">
+    <title lang="en">Powerpuff Girls Z</title>
+    <desc lang="en">Tập 4</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622011300 +0000" stop="20260622014037 +0000">
+    <title lang="en">Ghost in the Shell</title>
+    <desc lang="en">Tập 3</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622014037 +0000" stop="20260622020817 +0000">
+    <title lang="en">Ghost in the Shell</title>
+    <desc lang="en">Tập 4</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622020817 +0000" stop="20260622023519 +0000">
+    <title lang="en">Cowboy Bebop</title>
+    <desc lang="en">Tập 14</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622023519 +0000" stop="20260622030100 +0000">
+    <title lang="en">Cowboy Bebop</title>
+    <desc lang="en">Tập 15</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260622030100 +0000" stop="20260622033100 +0000">
+    <title lang="en">Fighting Spirit Champion Road</title>
   </programme>
   <channel id="snickelodeon-east">
     <display-name lang="en">Snickelodeon East</display-name>
   </channel>
-  <programme channel="snickelodeon-east" start="20260621062942 +0000" stop="20260621070000 +0000">
-    <title lang="en">Welcome Back Kotter</title>
-    <desc lang="en">Tập 7</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621070000 +0000" stop="20260621070000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 2</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621070000 +0000" stop="20260621080000 +0000">
-    <title lang="en">Space 1999</title>
-    <desc lang="en">Tập 48</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621080000 +0000" stop="20260621080000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 3</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621080000 +0000" stop="20260621082710 +0000">
-    <title lang="en">Joe 90</title>
-    <desc lang="en">Tập 24</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621082710 +0000" stop="20260621090000 +0000">
-    <title lang="en">Stingray</title>
-    <desc lang="en">Tập 33</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621090000 +0000" stop="20260621090000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 4</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621090000 +0000" stop="20260621093000 +0000">
-    <title lang="en">Captain Scarlet and the Mysterons</title>
-    <desc lang="en">Tập 32</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621093000 +0000" stop="20260621093000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 5</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260621093000 +0000" stop="20260621103000 +0000">
-    <title lang="en">UFO</title>
-    <desc lang="en">Tập 20</desc>
-  </programme>
   <programme channel="snickelodeon-east" start="20260621103000 +0000" stop="20260621103000 +0000">
     <title lang="en">Nick at Nite 5</title>
   </programme>
@@ -562,45 +544,42 @@
     <title lang="en">The Munsters</title>
     <desc lang="en">Tập 68</desc>
   </programme>
+  <programme channel="snickelodeon-east" start="20260622030000 +0000" stop="20260622030000 +0000">
+    <title lang="en">Nick at Nite 2</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622030000 +0000" stop="20260622032937 +0000">
+    <title lang="en">The Brady Bunch</title>
+    <desc lang="en">Tập 65</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622032937 +0000" stop="20260622040000 +0000">
+    <title lang="en">The Brady Bunch</title>
+    <desc lang="en">Tập 66</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622040000 +0000" stop="20260622040000 +0000">
+    <title lang="en">Nick at Nite 3</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622040000 +0000" stop="20260622042931 +0000">
+    <title lang="en">Sgt. Bilko</title>
+    <desc lang="en">Tập 98</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622042931 +0000" stop="20260622050000 +0000">
+    <title lang="en">The Bob Newhart Show</title>
+    <desc lang="en">Tập 100</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622050000 +0000" stop="20260622050000 +0000">
+    <title lang="en">Nick at Nite 4</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622050000 +0000" stop="20260622052949 +0000">
+    <title lang="en">Rhoda</title>
+    <desc lang="en">Tập 24</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260622052949 +0000" stop="20260622055949 +0000">
+    <title lang="en">F Troop</title>
+    <desc lang="en">Tập 47</desc>
+  </programme>
   <channel id="snickelodeon-west">
     <display-name lang="en">Snickelodeon West</display-name>
   </channel>
-  <programme channel="snickelodeon-west" start="20260621062942 +0000" stop="20260621070000 +0000">
-    <title lang="en">Welcome Back Kotter</title>
-    <desc lang="en">Tập 7</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621070000 +0000" stop="20260621070000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 2</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621070000 +0000" stop="20260621080000 +0000">
-    <title lang="en">Space 1999</title>
-    <desc lang="en">Tập 48</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621080000 +0000" stop="20260621080000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 3</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621080000 +0000" stop="20260621082710 +0000">
-    <title lang="en">Joe 90</title>
-    <desc lang="en">Tập 24</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621082710 +0000" stop="20260621090000 +0000">
-    <title lang="en">Stingray</title>
-    <desc lang="en">Tập 33</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621090000 +0000" stop="20260621090000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 4</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621090000 +0000" stop="20260621093000 +0000">
-    <title lang="en">Captain Scarlet and the Mysterons</title>
-    <desc lang="en">Tập 32</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621093000 +0000" stop="20260621093000 +0000">
-    <title lang="en">Nick at Nite Strung Out In Space 5</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260621093000 +0000" stop="20260621103000 +0000">
-    <title lang="en">UFO</title>
-    <desc lang="en">Tập 20</desc>
-  </programme>
   <programme channel="snickelodeon-west" start="20260621103000 +0000" stop="20260621103000 +0000">
     <title lang="en">Nick at Nite 5</title>
   </programme>
@@ -752,28 +731,61 @@
     <title lang="en">The Munsters</title>
     <desc lang="en">Tập 68</desc>
   </programme>
+  <programme channel="snickelodeon-west" start="20260622030000 +0000" stop="20260622030000 +0000">
+    <title lang="en">Nick at Nite 2</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622030000 +0000" stop="20260622032937 +0000">
+    <title lang="en">The Brady Bunch</title>
+    <desc lang="en">Tập 65</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622032937 +0000" stop="20260622040000 +0000">
+    <title lang="en">The Brady Bunch</title>
+    <desc lang="en">Tập 66</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622040000 +0000" stop="20260622040000 +0000">
+    <title lang="en">Nick at Nite 3</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622040000 +0000" stop="20260622042931 +0000">
+    <title lang="en">Sgt. Bilko</title>
+    <desc lang="en">Tập 98</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622042931 +0000" stop="20260622050000 +0000">
+    <title lang="en">The Bob Newhart Show</title>
+    <desc lang="en">Tập 100</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622050000 +0000" stop="20260622050000 +0000">
+    <title lang="en">Nick at Nite 4</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622050000 +0000" stop="20260622052949 +0000">
+    <title lang="en">Rhoda</title>
+    <desc lang="en">Tập 24</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260622052949 +0000" stop="20260622055949 +0000">
+    <title lang="en">F Troop</title>
+    <desc lang="en">Tập 47</desc>
+  </programme>
   <channel id="mtv97">
     <display-name lang="en">MTV97</display-name>
   </channel>
-  <programme channel="mtv97" start="20260621093827 +0000" stop="20260621100827 +0000">
+  <programme channel="mtv97" start="20260621135048 +0000" stop="20260621142048 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="movies">
     <display-name lang="en">Movies</display-name>
   </channel>
-  <programme channel="movies" start="20260621093828 +0000" stop="20260621100828 +0000">
+  <programme channel="movies" start="20260621135048 +0000" stop="20260621142048 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="radio">
     <display-name lang="en">Toonami Aftermath Radio</display-name>
   </channel>
-  <programme channel="radio" start="20260621093828 +0000" stop="20260621100828 +0000">
+  <programme channel="radio" start="20260621135049 +0000" stop="20260621142049 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="live-code">
     <display-name lang="en">Live Code</display-name>
   </channel>
-  <programme channel="live-code" start="20260621093828 +0000" stop="20260621100828 +0000">
+  <programme channel="live-code" start="20260621135049 +0000" stop="20260621142049 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
 </tv>
