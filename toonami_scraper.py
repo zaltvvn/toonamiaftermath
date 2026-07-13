@@ -119,18 +119,25 @@ def main():
         if not schedule:
             schedule = [{"name": "Đang phát sóng", "startDate": get_current_time_rfc3339()}]
 
+        # --- ĐOẠN SỬA LỖI GIỜ CHO KÊNH WEST ---
+        # Nếu kênh là "West" (bờ Tây), thêm 180 phút vào giờ bắt đầu/kết thúc
+        epg_delay = 180 if cfg["west"] else 0
+
         for i, item in enumerate(schedule):
             title_text = item.get("name") or item.get("blockName") or "Chương trình trực tiếp"
             ep_num = item.get("episodeNumber", "")
             if item.get("isBlockCard"): title_text = f"[Bumper] {title_text}"
             
             start_str = item.get("startDate", "")
-            start_time = to_xmltv_time(start_str)
+            # Cộng thêm epg_delay vào giờ bắt đầu
+            start_time = to_xmltv_time(start_str, minutes_add=epg_delay)
             
             if i < len(schedule) - 1:
-                stop_time = to_xmltv_time(schedule[i+1].get("startDate", ""))
+                # Cộng thêm epg_delay vào giờ kết thúc (bằng giờ bắt đầu của item kế tiếp)
+                stop_time = to_xmltv_time(schedule[i+1].get("startDate", ""), minutes_add=epg_delay)
             else:
-                stop_time = to_xmltv_time(start_str, minutes_add=30)
+                # Với chương trình cuối danh sách, cộng epg_delay + 30 phút mặc định
+                stop_time = to_xmltv_time(start_str, minutes_add=epg_delay + 30)
                 
             # Ghi thông tin chương trình gắn liền với epg_id
             prog_el = ET.Element("programme", channel=epg_id)
