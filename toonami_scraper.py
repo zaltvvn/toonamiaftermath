@@ -89,7 +89,7 @@ def main():
         return
 
     m3u_lines = ["#EXTM3U x-tvg-url=\"schedule.xml\""]
-    xml_root = ET.Element("tv", {"generator-info-name": "Toonami Aftermath Automated Scraper V4"})
+    xml_root = ET.Element("tv", {"generator-info-name": "Toonami Aftermath EPG"})
 
     for chan in raw_channels:
         name = chan.get("name") or chan.get("Name", "Unknown")
