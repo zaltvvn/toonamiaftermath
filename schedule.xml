@@ -3,78 +3,6 @@
   <channel id="toonamiaftermath-east">
     <display-name lang="en">Toonami Aftermath East</display-name>
   </channel>
-  <programme channel="toonamiaftermath-east" start="20260729103601 +0000" stop="20260729110000 +0000">
-    <title lang="en">G Gundam</title>
-    <desc lang="en">Tập 11</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729110000 +0000" stop="20260729110029 +0000">
-    <title lang="en">Special: Samurai Jack</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729110029 +0000" stop="20260729113013 +0000">
-    <title lang="en">Samurai Jack</title>
-    <desc lang="en">Tập 27</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729113013 +0000" stop="20260729120000 +0000">
-    <title lang="en">Samurai Jack</title>
-    <desc lang="en">Tập 28</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729120000 +0000" stop="20260729120102 +0000">
-    <title lang="en">Cartoon Cartoon</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729120102 +0000" stop="20260729122419 +0000">
-    <title lang="en">Courage the Cowardly Dog</title>
-    <desc lang="en">Tập 35</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729122419 +0000" stop="20260729123526 +0000">
-    <title lang="en">Ed Edd Eddy</title>
-    <desc lang="en">Tập 14</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729123526 +0000" stop="20260729124329 +0000">
-    <title lang="en">2 Stupid Dogs</title>
-    <desc lang="en">Tập 11</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729124329 +0000" stop="20260729125048 +0000">
-    <title lang="en">Johnny Bravo</title>
-    <desc lang="en">Tập 104</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729125048 +0000" stop="20260729130000 +0000">
-    <title lang="en">What A Cartoon! Show</title>
-    <desc lang="en">Tập 9</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729130000 +0000" stop="20260729130130 +0000">
-    <title lang="en">Toonami</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729130130 +0000" stop="20260729132528 +0000">
-    <title lang="en">Dragonball</title>
-    <desc lang="en">Tập 52</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729132528 +0000" stop="20260729134951 +0000">
-    <title lang="en">Sailor Moon</title>
-    <desc lang="en">Tập 145</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729134951 +0000" stop="20260729141301 +0000">
-    <title lang="en">DBZ</title>
-    <desc lang="en">Tập 129</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729141301 +0000" stop="20260729143624 +0000">
-    <title lang="en">DBZ</title>
-    <desc lang="en">Tập 130</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729143624 +0000" stop="20260729150000 +0000">
-    <title lang="en">Gundam Wing</title>
-    <desc lang="en">Tập 28</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729150000 +0000" stop="20260729150648 +0000">
-    <title lang="en">Ghost Planet</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729150648 +0000" stop="20260729153026 +0000">
-    <title lang="en">Space Ghost C2C</title>
-    <desc lang="en">Tập 42</desc>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260729153026 +0000" stop="20260729160000 +0000">
-    <title lang="en">Home Movies</title>
-    <desc lang="en">Tập 37</desc>
-  </programme>
   <programme channel="toonamiaftermath-east" start="20260729160000 +0000" stop="20260729160030 +0000">
     <title lang="en">Marvel vs Capcom</title>
   </programme>
@@ -189,85 +117,89 @@
     <title lang="en">Ed Edd Eddy</title>
     <desc lang="en">Tập 15</desc>
   </programme>
-  <programme channel="toonamiaftermath-east" start="20260730003229 +0000" stop="20260730010229 +0000">
+  <programme channel="toonamiaftermath-east" start="20260730003229 +0000" stop="20260730003951 +0000">
     <title lang="en">Cow and Chicken</title>
     <desc lang="en">Tập 104</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730003951 +0000" stop="20260730004722 +0000">
+    <title lang="en">I Am Weasel</title>
+    <desc lang="en">Tập 18</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730004722 +0000" stop="20260730010000 +0000">
+    <title lang="en">Dexters Laboratory</title>
+    <desc lang="en">Tập 96</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730010000 +0000" stop="20260730010130 +0000">
+    <title lang="en">Toonami</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730010130 +0000" stop="20260730012535 +0000">
+    <title lang="en">Dragonball</title>
+    <desc lang="en">Tập 54</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730012535 +0000" stop="20260730014957 +0000">
+    <title lang="en">Sailor Moon</title>
+    <desc lang="en">Tập 147</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730014957 +0000" stop="20260730021303 +0000">
+    <title lang="en">DBZ</title>
+    <desc lang="en">Tập 133</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730021303 +0000" stop="20260730023623 +0000">
+    <title lang="en">DBZ</title>
+    <desc lang="en">Tập 134</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730023623 +0000" stop="20260730030000 +0000">
+    <title lang="en">Gundam Wing</title>
+    <desc lang="en">Tập 29</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730030000 +0000" stop="20260730030336 +0000">
+    <title lang="en">Ghost Planet</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730030336 +0000" stop="20260730031836 +0000">
+    <title lang="en">Space Ghost C2C</title>
+    <desc lang="en">Tập 43</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730031836 +0000" stop="20260730034500 +0000">
+    <title lang="en">Home Movies</title>
+    <desc lang="en">Tập 38</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730034500 +0000" stop="20260730040000 +0000">
+    <title lang="en">Brak Show</title>
+    <desc lang="en">Tập 23</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730040000 +0000" stop="20260730040130 +0000">
+    <title lang="en">Midnight Run</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730040130 +0000" stop="20260730042523 +0000">
+    <title lang="en">Trigun</title>
+    <desc lang="en">Tập 23</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730042523 +0000" stop="20260730044945 +0000">
+    <title lang="en">Yu Yu Hakusho</title>
+    <desc lang="en">Tập 26</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730044945 +0000" stop="20260730051352 +0000">
+    <title lang="en">Tenchi Universe</title>
+    <desc lang="en">Tập 24</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730051352 +0000" stop="20260730053648 +0000">
+    <title lang="en">Lupin III</title>
+    <desc lang="en">Tập 38</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730053648 +0000" stop="20260730060000 +0000">
+    <title lang="en">Ranma</title>
+    <desc lang="en">Tập 124</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730060000 +0000" stop="20260730060000 +0000">
+    <title lang="en">All Kids Outta The Pool</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260730060000 +0000" stop="20260730063000 +0000">
+    <title lang="en">Escaflowne</title>
+    <desc lang="en">Tập 22</desc>
   </programme>
   <channel id="toonamiaftermath-west">
     <display-name lang="en">Toonami Aftermath West</display-name>
   </channel>
-  <programme channel="toonamiaftermath-west" start="20260729133601 +0000" stop="20260729140000 +0000">
-    <title lang="en">G Gundam</title>
-    <desc lang="en">Tập 11</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729140000 +0000" stop="20260729140029 +0000">
-    <title lang="en">Special: Samurai Jack</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729140029 +0000" stop="20260729143013 +0000">
-    <title lang="en">Samurai Jack</title>
-    <desc lang="en">Tập 27</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729143013 +0000" stop="20260729150000 +0000">
-    <title lang="en">Samurai Jack</title>
-    <desc lang="en">Tập 28</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729150000 +0000" stop="20260729150102 +0000">
-    <title lang="en">Cartoon Cartoon</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729150102 +0000" stop="20260729152419 +0000">
-    <title lang="en">Courage the Cowardly Dog</title>
-    <desc lang="en">Tập 35</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729152419 +0000" stop="20260729153526 +0000">
-    <title lang="en">Ed Edd Eddy</title>
-    <desc lang="en">Tập 14</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729153526 +0000" stop="20260729154329 +0000">
-    <title lang="en">2 Stupid Dogs</title>
-    <desc lang="en">Tập 11</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729154329 +0000" stop="20260729155048 +0000">
-    <title lang="en">Johnny Bravo</title>
-    <desc lang="en">Tập 104</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729155048 +0000" stop="20260729160000 +0000">
-    <title lang="en">What A Cartoon! Show</title>
-    <desc lang="en">Tập 9</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729160000 +0000" stop="20260729160130 +0000">
-    <title lang="en">Toonami</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729160130 +0000" stop="20260729162528 +0000">
-    <title lang="en">Dragonball</title>
-    <desc lang="en">Tập 52</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729162528 +0000" stop="20260729164951 +0000">
-    <title lang="en">Sailor Moon</title>
-    <desc lang="en">Tập 145</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729164951 +0000" stop="20260729171301 +0000">
-    <title lang="en">DBZ</title>
-    <desc lang="en">Tập 129</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729171301 +0000" stop="20260729173624 +0000">
-    <title lang="en">DBZ</title>
-    <desc lang="en">Tập 130</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729173624 +0000" stop="20260729180000 +0000">
-    <title lang="en">Gundam Wing</title>
-    <desc lang="en">Tập 28</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729180000 +0000" stop="20260729180648 +0000">
-    <title lang="en">Ghost Planet</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729180648 +0000" stop="20260729183026 +0000">
-    <title lang="en">Space Ghost C2C</title>
-    <desc lang="en">Tập 42</desc>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260729183026 +0000" stop="20260729190000 +0000">
-    <title lang="en">Home Movies</title>
-    <desc lang="en">Tập 37</desc>
-  </programme>
   <programme channel="toonamiaftermath-west" start="20260729190000 +0000" stop="20260729190030 +0000">
     <title lang="en">Marvel vs Capcom</title>
   </programme>
@@ -382,61 +314,89 @@
     <title lang="en">Ed Edd Eddy</title>
     <desc lang="en">Tập 15</desc>
   </programme>
-  <programme channel="toonamiaftermath-west" start="20260730033229 +0000" stop="20260730040229 +0000">
+  <programme channel="toonamiaftermath-west" start="20260730033229 +0000" stop="20260730033951 +0000">
     <title lang="en">Cow and Chicken</title>
     <desc lang="en">Tập 104</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730033951 +0000" stop="20260730034722 +0000">
+    <title lang="en">I Am Weasel</title>
+    <desc lang="en">Tập 18</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730034722 +0000" stop="20260730040000 +0000">
+    <title lang="en">Dexters Laboratory</title>
+    <desc lang="en">Tập 96</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730040000 +0000" stop="20260730040130 +0000">
+    <title lang="en">Toonami</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730040130 +0000" stop="20260730042535 +0000">
+    <title lang="en">Dragonball</title>
+    <desc lang="en">Tập 54</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730042535 +0000" stop="20260730044957 +0000">
+    <title lang="en">Sailor Moon</title>
+    <desc lang="en">Tập 147</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730044957 +0000" stop="20260730051303 +0000">
+    <title lang="en">DBZ</title>
+    <desc lang="en">Tập 133</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730051303 +0000" stop="20260730053623 +0000">
+    <title lang="en">DBZ</title>
+    <desc lang="en">Tập 134</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730053623 +0000" stop="20260730060000 +0000">
+    <title lang="en">Gundam Wing</title>
+    <desc lang="en">Tập 29</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730060000 +0000" stop="20260730060336 +0000">
+    <title lang="en">Ghost Planet</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730060336 +0000" stop="20260730061836 +0000">
+    <title lang="en">Space Ghost C2C</title>
+    <desc lang="en">Tập 43</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730061836 +0000" stop="20260730064500 +0000">
+    <title lang="en">Home Movies</title>
+    <desc lang="en">Tập 38</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730064500 +0000" stop="20260730070000 +0000">
+    <title lang="en">Brak Show</title>
+    <desc lang="en">Tập 23</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730070000 +0000" stop="20260730070130 +0000">
+    <title lang="en">Midnight Run</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730070130 +0000" stop="20260730072523 +0000">
+    <title lang="en">Trigun</title>
+    <desc lang="en">Tập 23</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730072523 +0000" stop="20260730074945 +0000">
+    <title lang="en">Yu Yu Hakusho</title>
+    <desc lang="en">Tập 26</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730074945 +0000" stop="20260730081352 +0000">
+    <title lang="en">Tenchi Universe</title>
+    <desc lang="en">Tập 24</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730081352 +0000" stop="20260730083648 +0000">
+    <title lang="en">Lupin III</title>
+    <desc lang="en">Tập 38</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730083648 +0000" stop="20260730090000 +0000">
+    <title lang="en">Ranma</title>
+    <desc lang="en">Tập 124</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730090000 +0000" stop="20260730090000 +0000">
+    <title lang="en">All Kids Outta The Pool</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260730090000 +0000" stop="20260730093000 +0000">
+    <title lang="en">Escaflowne</title>
+    <desc lang="en">Tập 22</desc>
   </programme>
   <channel id="snickelodeon-east">
     <display-name lang="en">Snickelodeon East</display-name>
   </channel>
-  <programme channel="snickelodeon-east" start="20260729100000 +0000" stop="20260729100000 +0000">
-    <title lang="en">Nick at Nite 5</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729100000 +0000" stop="20260729110000 +0000">
-    <title lang="en">I Spy</title>
-    <desc lang="en">Tập 51</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729110000 +0000" stop="20260729110000 +0000">
-    <title lang="en">Nickelodeon 1</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729110000 +0000" stop="20260729113329 +0000">
-    <title lang="en">Fifteen</title>
-    <desc lang="en">Tập 11</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729113329 +0000" stop="20260729120621 +0000">
-    <title lang="en">You Can't Do That on Television</title>
-    <desc lang="en">Tập 7</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729120621 +0000" stop="20260729130000 +0000">
-    <title lang="en">Flipper The New Adventures</title>
-    <desc lang="en">Tập 86</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729130000 +0000" stop="20260729130000 +0000">
-    <title lang="en">Nick Jr 1</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729130000 +0000" stop="20260729132722 +0000">
-    <title lang="en">Noozles</title>
-    <desc lang="en">Tập 25</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729132722 +0000" stop="20260729135556 +0000">
-    <title lang="en">Grimms Fairy Tale Classics</title>
-    <desc lang="en">Tập 13</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729135556 +0000" stop="20260729142729 +0000">
-    <title lang="en">Busy World of Richard Scarry</title>
-    <desc lang="en">Tập 26</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729142729 +0000" stop="20260729150000 +0000">
-    <title lang="en">Muppet Babies</title>
-    <desc lang="en">Tập 8</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729150000 +0000" stop="20260729150000 +0000">
-    <title lang="en">Nick Jr 2</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260729150000 +0000" stop="20260729154241 +0000">
-    <title lang="en">Allegras Window</title>
-    <desc lang="en">Tập 8</desc>
-  </programme>
   <programme channel="snickelodeon-east" start="20260729154241 +0000" stop="20260729161458 +0000">
     <title lang="en">Gullah Gullah Island</title>
     <desc lang="en">Tập 38</desc>
@@ -571,61 +531,64 @@
     <title lang="en">Alfred Hitchcock Presents</title>
     <desc lang="en">Tập 97</desc>
   </programme>
-  <programme channel="snickelodeon-east" start="20260730042940 +0000" stop="20260730045940 +0000">
+  <programme channel="snickelodeon-east" start="20260730042940 +0000" stop="20260730050000 +0000">
     <title lang="en">The Adventures of Superman</title>
     <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730050000 +0000" stop="20260730050000 +0000">
+    <title lang="en">Nick at Nite 4</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730050000 +0000" stop="20260730052949 +0000">
+    <title lang="en">The Lucy Show</title>
+    <desc lang="en">Tập 77</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730052949 +0000" stop="20260730060000 +0000">
+    <title lang="en">Green Acres</title>
+    <desc lang="en">Tập 65</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730060000 +0000" stop="20260730060000 +0000">
+    <title lang="en">Nick at Nite 5</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730060000 +0000" stop="20260730062945 +0000">
+    <title lang="en">The Patty Duke Show</title>
+    <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730062945 +0000" stop="20260730070000 +0000">
+    <title lang="en">The Many Loves of Dobie Gillis</title>
+    <desc lang="en">Tập 140</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730070000 +0000" stop="20260730070000 +0000">
+    <title lang="en">Nick at Nite 2</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730070000 +0000" stop="20260730072943 +0000">
+    <title lang="en">My Three Sons</title>
+    <desc lang="en">Tập 24</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730072943 +0000" stop="20260730080000 +0000">
+    <title lang="en">Mister Ed</title>
+    <desc lang="en">Tập 78</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730080000 +0000" stop="20260730080000 +0000">
+    <title lang="en">Nick at Nite 3</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730080000 +0000" stop="20260730082940 +0000">
+    <title lang="en">Alfred Hitchcock Presents</title>
+    <desc lang="en">Tập 97</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730082940 +0000" stop="20260730090000 +0000">
+    <title lang="en">The Adventures of Superman</title>
+    <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730090000 +0000" stop="20260730090000 +0000">
+    <title lang="en">Nick at Nite 4</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260730090000 +0000" stop="20260730093000 +0000">
+    <title lang="en">The Lucy Show</title>
+    <desc lang="en">Tập 77</desc>
   </programme>
   <channel id="snickelodeon-west">
     <display-name lang="en">Snickelodeon West</display-name>
   </channel>
-  <programme channel="snickelodeon-west" start="20260729130000 +0000" stop="20260729130000 +0000">
-    <title lang="en">Nick at Nite 5</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729130000 +0000" stop="20260729140000 +0000">
-    <title lang="en">I Spy</title>
-    <desc lang="en">Tập 51</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729140000 +0000" stop="20260729140000 +0000">
-    <title lang="en">Nickelodeon 1</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729140000 +0000" stop="20260729143329 +0000">
-    <title lang="en">Fifteen</title>
-    <desc lang="en">Tập 11</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729143329 +0000" stop="20260729150621 +0000">
-    <title lang="en">You Can't Do That on Television</title>
-    <desc lang="en">Tập 7</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729150621 +0000" stop="20260729160000 +0000">
-    <title lang="en">Flipper The New Adventures</title>
-    <desc lang="en">Tập 86</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729160000 +0000" stop="20260729160000 +0000">
-    <title lang="en">Nick Jr 1</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729160000 +0000" stop="20260729162722 +0000">
-    <title lang="en">Noozles</title>
-    <desc lang="en">Tập 25</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729162722 +0000" stop="20260729165556 +0000">
-    <title lang="en">Grimms Fairy Tale Classics</title>
-    <desc lang="en">Tập 13</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729165556 +0000" stop="20260729172729 +0000">
-    <title lang="en">Busy World of Richard Scarry</title>
-    <desc lang="en">Tập 26</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729172729 +0000" stop="20260729180000 +0000">
-    <title lang="en">Muppet Babies</title>
-    <desc lang="en">Tập 8</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729180000 +0000" stop="20260729180000 +0000">
-    <title lang="en">Nick Jr 2</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260729180000 +0000" stop="20260729184241 +0000">
-    <title lang="en">Allegras Window</title>
-    <desc lang="en">Tập 8</desc>
-  </programme>
   <programme channel="snickelodeon-west" start="20260729184241 +0000" stop="20260729191458 +0000">
     <title lang="en">Gullah Gullah Island</title>
     <desc lang="en">Tập 38</desc>
@@ -760,32 +723,83 @@
     <title lang="en">Alfred Hitchcock Presents</title>
     <desc lang="en">Tập 97</desc>
   </programme>
-  <programme channel="snickelodeon-west" start="20260730072940 +0000" stop="20260730075940 +0000">
+  <programme channel="snickelodeon-west" start="20260730072940 +0000" stop="20260730080000 +0000">
     <title lang="en">The Adventures of Superman</title>
     <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730080000 +0000" stop="20260730080000 +0000">
+    <title lang="en">Nick at Nite 4</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730080000 +0000" stop="20260730082949 +0000">
+    <title lang="en">The Lucy Show</title>
+    <desc lang="en">Tập 77</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730082949 +0000" stop="20260730090000 +0000">
+    <title lang="en">Green Acres</title>
+    <desc lang="en">Tập 65</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730090000 +0000" stop="20260730090000 +0000">
+    <title lang="en">Nick at Nite 5</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730090000 +0000" stop="20260730092945 +0000">
+    <title lang="en">The Patty Duke Show</title>
+    <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730092945 +0000" stop="20260730100000 +0000">
+    <title lang="en">The Many Loves of Dobie Gillis</title>
+    <desc lang="en">Tập 140</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730100000 +0000" stop="20260730100000 +0000">
+    <title lang="en">Nick at Nite 2</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730100000 +0000" stop="20260730102943 +0000">
+    <title lang="en">My Three Sons</title>
+    <desc lang="en">Tập 24</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730102943 +0000" stop="20260730110000 +0000">
+    <title lang="en">Mister Ed</title>
+    <desc lang="en">Tập 78</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730110000 +0000" stop="20260730110000 +0000">
+    <title lang="en">Nick at Nite 3</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730110000 +0000" stop="20260730112940 +0000">
+    <title lang="en">Alfred Hitchcock Presents</title>
+    <desc lang="en">Tập 97</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730112940 +0000" stop="20260730120000 +0000">
+    <title lang="en">The Adventures of Superman</title>
+    <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730120000 +0000" stop="20260730120000 +0000">
+    <title lang="en">Nick at Nite 4</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260730120000 +0000" stop="20260730123000 +0000">
+    <title lang="en">The Lucy Show</title>
+    <desc lang="en">Tập 77</desc>
   </programme>
   <channel id="mtv97">
     <display-name lang="en">MTV97</display-name>
   </channel>
-  <programme channel="mtv97" start="20260729134910 +0000" stop="20260729141910 +0000">
+  <programme channel="mtv97" start="20260729185946 +0000" stop="20260729192946 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="movies">
     <display-name lang="en">Movies</display-name>
   </channel>
-  <programme channel="movies" start="20260729134910 +0000" stop="20260729141910 +0000">
+  <programme channel="movies" start="20260729185946 +0000" stop="20260729192946 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="radio">
     <display-name lang="en">Toonami Aftermath Radio</display-name>
   </channel>
-  <programme channel="radio" start="20260729134911 +0000" stop="20260729141911 +0000">
+  <programme channel="radio" start="20260729185947 +0000" stop="20260729192947 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="live-code">
     <display-name lang="en">Live Code</display-name>
   </channel>
-  <programme channel="live-code" start="20260729134911 +0000" stop="20260729141911 +0000">
+  <programme channel="live-code" start="20260729185947 +0000" stop="20260729192947 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
 </tv>
