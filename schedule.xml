@@ -3,15 +3,6 @@
   <channel id="toonamiaftermath-east">
     <display-name lang="en">Toonami Aftermath East</display-name>
   </channel>
-  <programme channel="toonamiaftermath-east" start="20260817030100 +0000" stop="20260817044151 +0000">
-    <title lang="en">Ponyo</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260817044151 +0000" stop="20260817063850 +0000">
-    <title lang="en">Rifftrax - Thor</title>
-  </programme>
-  <programme channel="toonamiaftermath-east" start="20260817063850 +0000" stop="20260817075311 +0000">
-    <title lang="en">Rifftrax - Swing Parade of 1946</title>
-  </programme>
   <programme channel="toonamiaftermath-east" start="20260817075311 +0000" stop="20260817092700 +0000">
     <title lang="en">MST3K - S05E10 - The Painted Hills</title>
   </programme>
@@ -184,22 +175,26 @@
     <title lang="en">DBZ</title>
     <desc lang="en">Tập 184</desc>
   </programme>
-  <programme channel="toonamiaftermath-east" start="20260817223600 +0000" stop="20260817230600 +0000">
+  <programme channel="toonamiaftermath-east" start="20260817223600 +0000" stop="20260817230000 +0000">
     <title lang="en">G Gundam</title>
     <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260817230000 +0000" stop="20260817230020 +0000">
+    <title lang="en">Special: Cartoon Theater</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260817230020 +0000" stop="20260818001823 +0000">
+    <title lang="en">Superman Doomsday</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260818001823 +0000" stop="20260818001925 +0000">
+    <title lang="en">Cartoon Cartoon</title>
+  </programme>
+  <programme channel="toonamiaftermath-east" start="20260818001925 +0000" stop="20260818004925 +0000">
+    <title lang="en">Powerpuff Girls</title>
+    <desc lang="en">Tập 60</desc>
   </programme>
   <channel id="toonamiaftermath-west">
     <display-name lang="en">Toonami Aftermath West</display-name>
   </channel>
-  <programme channel="toonamiaftermath-west" start="20260817060100 +0000" stop="20260817074151 +0000">
-    <title lang="en">Ponyo</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260817074151 +0000" stop="20260817093850 +0000">
-    <title lang="en">Rifftrax - Thor</title>
-  </programme>
-  <programme channel="toonamiaftermath-west" start="20260817093850 +0000" stop="20260817105311 +0000">
-    <title lang="en">Rifftrax - Swing Parade of 1946</title>
-  </programme>
   <programme channel="toonamiaftermath-west" start="20260817105311 +0000" stop="20260817122700 +0000">
     <title lang="en">MST3K - S05E10 - The Painted Hills</title>
   </programme>
@@ -372,72 +367,26 @@
     <title lang="en">DBZ</title>
     <desc lang="en">Tập 184</desc>
   </programme>
-  <programme channel="toonamiaftermath-west" start="20260818013600 +0000" stop="20260818020600 +0000">
+  <programme channel="toonamiaftermath-west" start="20260818013600 +0000" stop="20260818020000 +0000">
     <title lang="en">G Gundam</title>
     <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260818020000 +0000" stop="20260818020020 +0000">
+    <title lang="en">Special: Cartoon Theater</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260818020020 +0000" stop="20260818031823 +0000">
+    <title lang="en">Superman Doomsday</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260818031823 +0000" stop="20260818031925 +0000">
+    <title lang="en">Cartoon Cartoon</title>
+  </programme>
+  <programme channel="toonamiaftermath-west" start="20260818031925 +0000" stop="20260818034925 +0000">
+    <title lang="en">Powerpuff Girls</title>
+    <desc lang="en">Tập 60</desc>
   </programme>
   <channel id="snickelodeon-east">
     <display-name lang="en">Snickelodeon East</display-name>
   </channel>
-  <programme channel="snickelodeon-east" start="20260817032951 +0000" stop="20260817040000 +0000">
-    <title lang="en">The Brady Bunch</title>
-    <desc lang="en">Tập 82</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817040000 +0000" stop="20260817040000 +0000">
-    <title lang="en">Nick at Nite 3</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817040000 +0000" stop="20260817042938 +0000">
-    <title lang="en">Sgt. Bilko</title>
-    <desc lang="en">Tập 106</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817042938 +0000" stop="20260817050000 +0000">
-    <title lang="en">The Bob Newhart Show</title>
-    <desc lang="en">Tập 108</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817050000 +0000" stop="20260817050000 +0000">
-    <title lang="en">Nick at Nite 4</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817050000 +0000" stop="20260817052914 +0000">
-    <title lang="en">Rhoda</title>
-    <desc lang="en">Tập 32</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817052914 +0000" stop="20260817060000 +0000">
-    <title lang="en">F Troop</title>
-    <desc lang="en">Tập 63</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817060000 +0000" stop="20260817060000 +0000">
-    <title lang="en">Nick at Nite 5</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817060000 +0000" stop="20260817063117 +0000">
-    <title lang="en">Taxi</title>
-    <desc lang="en">Tập 50</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817063117 +0000" stop="20260817070000 +0000">
-    <title lang="en">Welcome Back Kotter</title>
-    <desc lang="en">Tập 24</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817070000 +0000" stop="20260817070000 +0000">
-    <title lang="en">Nick at Nite 2</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817070000 +0000" stop="20260817072951 +0000">
-    <title lang="en">The Brady Bunch</title>
-    <desc lang="en">Tập 81</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817072951 +0000" stop="20260817080000 +0000">
-    <title lang="en">The Brady Bunch</title>
-    <desc lang="en">Tập 82</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817080000 +0000" stop="20260817080000 +0000">
-    <title lang="en">Nick at Nite 3</title>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817080000 +0000" stop="20260817082938 +0000">
-    <title lang="en">Sgt. Bilko</title>
-    <desc lang="en">Tập 106</desc>
-  </programme>
-  <programme channel="snickelodeon-east" start="20260817082938 +0000" stop="20260817090000 +0000">
-    <title lang="en">The Bob Newhart Show</title>
-    <desc lang="en">Tập 108</desc>
-  </programme>
   <programme channel="snickelodeon-east" start="20260817090000 +0000" stop="20260817090000 +0000">
     <title lang="en">Nick at Nite 4</title>
   </programme>
@@ -561,72 +510,72 @@
     <title lang="en">Hey Arnold!</title>
     <desc lang="en">Tập 7</desc>
   </programme>
-  <programme channel="snickelodeon-east" start="20260817212950 +0000" stop="20260817215950 +0000">
+  <programme channel="snickelodeon-east" start="20260817212950 +0000" stop="20260817220000 +0000">
     <title lang="en">Rockos Modern Life</title>
     <desc lang="en">Tập 8</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260817220000 +0000" stop="20260817220000 +0000">
+    <title lang="en">Nickelodeon 6</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260817220000 +0000" stop="20260817223120 +0000">
+    <title lang="en">Clarissa Explains It All</title>
+    <desc lang="en">Tập 7</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260817223120 +0000" stop="20260817230110 +0000">
+    <title lang="en">Pete and Pete</title>
+    <desc lang="en">Tập 7</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260817230110 +0000" stop="20260817233027 +0000">
+    <title lang="en">Doug</title>
+    <desc lang="en">Tập 41</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260817233027 +0000" stop="20260818000000 +0000">
+    <title lang="en">Rugrats</title>
+    <desc lang="en">Tập 15</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818000000 +0000" stop="20260818000000 +0000">
+    <title lang="en">Snick</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818000000 +0000" stop="20260818003004 +0000">
+    <title lang="en">Secret World Of Alex Mack</title>
+    <desc lang="en">Tập 29</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818003004 +0000" stop="20260818010027 +0000">
+    <title lang="en">All That</title>
+    <desc lang="en">Tập 33</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818010027 +0000" stop="20260818012908 +0000">
+    <title lang="en">Ren and Stimpy</title>
+    <desc lang="en">Tập 29</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818012908 +0000" stop="20260818020000 +0000">
+    <title lang="en">Are You Afraid Of The Dark</title>
+    <desc lang="en">Tập 13</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818020000 +0000" stop="20260818020000 +0000">
+    <title lang="en">Bullwinkle's Moose-O-Rama</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818020000 +0000" stop="20260818023000 +0000">
+    <title lang="en">Rocky and Bullwinkle</title>
+    <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818023000 +0000" stop="20260818023000 +0000">
+    <title lang="en">Nick at Nite 1</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818023000 +0000" stop="20260818030000 +0000">
+    <title lang="en">Bewitched</title>
+    <desc lang="en">Tập 23</desc>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818030000 +0000" stop="20260818030000 +0000">
+    <title lang="en">Nick at Nite 2</title>
+  </programme>
+  <programme channel="snickelodeon-east" start="20260818030000 +0000" stop="20260818033000 +0000">
+    <title lang="en">My Three Sons</title>
+    <desc lang="en">Tập 29</desc>
   </programme>
   <channel id="snickelodeon-west">
     <display-name lang="en">Snickelodeon West</display-name>
   </channel>
-  <programme channel="snickelodeon-west" start="20260817062951 +0000" stop="20260817070000 +0000">
-    <title lang="en">The Brady Bunch</title>
-    <desc lang="en">Tập 82</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817070000 +0000" stop="20260817070000 +0000">
-    <title lang="en">Nick at Nite 3</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817070000 +0000" stop="20260817072938 +0000">
-    <title lang="en">Sgt. Bilko</title>
-    <desc lang="en">Tập 106</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817072938 +0000" stop="20260817080000 +0000">
-    <title lang="en">The Bob Newhart Show</title>
-    <desc lang="en">Tập 108</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817080000 +0000" stop="20260817080000 +0000">
-    <title lang="en">Nick at Nite 4</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817080000 +0000" stop="20260817082914 +0000">
-    <title lang="en">Rhoda</title>
-    <desc lang="en">Tập 32</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817082914 +0000" stop="20260817090000 +0000">
-    <title lang="en">F Troop</title>
-    <desc lang="en">Tập 63</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817090000 +0000" stop="20260817090000 +0000">
-    <title lang="en">Nick at Nite 5</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817090000 +0000" stop="20260817093117 +0000">
-    <title lang="en">Taxi</title>
-    <desc lang="en">Tập 50</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817093117 +0000" stop="20260817100000 +0000">
-    <title lang="en">Welcome Back Kotter</title>
-    <desc lang="en">Tập 24</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817100000 +0000" stop="20260817100000 +0000">
-    <title lang="en">Nick at Nite 2</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817100000 +0000" stop="20260817102951 +0000">
-    <title lang="en">The Brady Bunch</title>
-    <desc lang="en">Tập 81</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817102951 +0000" stop="20260817110000 +0000">
-    <title lang="en">The Brady Bunch</title>
-    <desc lang="en">Tập 82</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817110000 +0000" stop="20260817110000 +0000">
-    <title lang="en">Nick at Nite 3</title>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817110000 +0000" stop="20260817112938 +0000">
-    <title lang="en">Sgt. Bilko</title>
-    <desc lang="en">Tập 106</desc>
-  </programme>
-  <programme channel="snickelodeon-west" start="20260817112938 +0000" stop="20260817120000 +0000">
-    <title lang="en">The Bob Newhart Show</title>
-    <desc lang="en">Tập 108</desc>
-  </programme>
   <programme channel="snickelodeon-west" start="20260817120000 +0000" stop="20260817120000 +0000">
     <title lang="en">Nick at Nite 4</title>
   </programme>
@@ -750,32 +699,91 @@
     <title lang="en">Hey Arnold!</title>
     <desc lang="en">Tập 7</desc>
   </programme>
-  <programme channel="snickelodeon-west" start="20260818002950 +0000" stop="20260818005950 +0000">
+  <programme channel="snickelodeon-west" start="20260818002950 +0000" stop="20260818010000 +0000">
     <title lang="en">Rockos Modern Life</title>
     <desc lang="en">Tập 8</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818010000 +0000" stop="20260818010000 +0000">
+    <title lang="en">Nickelodeon 6</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818010000 +0000" stop="20260818013120 +0000">
+    <title lang="en">Clarissa Explains It All</title>
+    <desc lang="en">Tập 7</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818013120 +0000" stop="20260818020110 +0000">
+    <title lang="en">Pete and Pete</title>
+    <desc lang="en">Tập 7</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818020110 +0000" stop="20260818023027 +0000">
+    <title lang="en">Doug</title>
+    <desc lang="en">Tập 41</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818023027 +0000" stop="20260818030000 +0000">
+    <title lang="en">Rugrats</title>
+    <desc lang="en">Tập 15</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818030000 +0000" stop="20260818030000 +0000">
+    <title lang="en">Snick</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818030000 +0000" stop="20260818033004 +0000">
+    <title lang="en">Secret World Of Alex Mack</title>
+    <desc lang="en">Tập 29</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818033004 +0000" stop="20260818040027 +0000">
+    <title lang="en">All That</title>
+    <desc lang="en">Tập 33</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818040027 +0000" stop="20260818042908 +0000">
+    <title lang="en">Ren and Stimpy</title>
+    <desc lang="en">Tập 29</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818042908 +0000" stop="20260818050000 +0000">
+    <title lang="en">Are You Afraid Of The Dark</title>
+    <desc lang="en">Tập 13</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818050000 +0000" stop="20260818050000 +0000">
+    <title lang="en">Bullwinkle's Moose-O-Rama</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818050000 +0000" stop="20260818053000 +0000">
+    <title lang="en">Rocky and Bullwinkle</title>
+    <desc lang="en">Tập 25</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818053000 +0000" stop="20260818053000 +0000">
+    <title lang="en">Nick at Nite 1</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818053000 +0000" stop="20260818060000 +0000">
+    <title lang="en">Bewitched</title>
+    <desc lang="en">Tập 23</desc>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818060000 +0000" stop="20260818060000 +0000">
+    <title lang="en">Nick at Nite 2</title>
+  </programme>
+  <programme channel="snickelodeon-west" start="20260818060000 +0000" stop="20260818063000 +0000">
+    <title lang="en">My Three Sons</title>
+    <desc lang="en">Tập 29</desc>
   </programme>
   <channel id="mtv97">
     <display-name lang="en">MTV97</display-name>
   </channel>
-  <programme channel="mtv97" start="20260817063552 +0000" stop="20260817070552 +0000">
+  <programme channel="mtv97" start="20260817122534 +0000" stop="20260817125534 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="movies">
     <display-name lang="en">Movies</display-name>
   </channel>
-  <programme channel="movies" start="20260817063552 +0000" stop="20260817070552 +0000">
+  <programme channel="movies" start="20260817122535 +0000" stop="20260817125535 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="radio">
     <display-name lang="en">Toonami Aftermath Radio</display-name>
   </channel>
-  <programme channel="radio" start="20260817063552 +0000" stop="20260817070552 +0000">
+  <programme channel="radio" start="20260817122535 +0000" stop="20260817125535 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
   <channel id="live-code">
     <display-name lang="en">Live Code</display-name>
   </channel>
-  <programme channel="live-code" start="20260817063552 +0000" stop="20260817070552 +0000">
+  <programme channel="live-code" start="20260817122535 +0000" stop="20260817125535 +0000">
     <title lang="en">Đang phát sóng</title>
   </programme>
 </tv>
