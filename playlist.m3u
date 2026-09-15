@@ -1,17 +1,17 @@
 #EXTM3U x-tvg-url="schedule.xml"
 #EXTINF:-1 tvg-id="toonamiaftermath-east" tvg-name="Toonami Aftermath East" group-title="Toonami Aftermath", Toonami Aftermath East
-https://asp11.toonamiaftermath.com:443/livehttporigin/est/UYHx1r-WbCDNh-playlist.m3u8
+https://asp10.toonamiaftermath.com:443/livehttporigin/est/tmw01M-ch2ZY3-playlist.m3u8
 #EXTINF:-1 tvg-id="toonamiaftermath-west" tvg-name="Toonami Aftermath West" group-title="Toonami Aftermath", Toonami Aftermath West
-https://asp11.toonamiaftermath.com:443/livehttporigin/est/UYHx1r-LpTcLJ-playlist.m3u8?streamDelay=180
+https://asp10.toonamiaftermath.com:443/livehttporigin/est/tmw01M-tNjpV2-playlist.m3u8?streamDelay=180
 #EXTINF:-1 tvg-id="snickelodeon-east" tvg-name="Snickelodeon East" group-title="Toonami Aftermath", Snickelodeon East
 http://api.toonamiaftermath.com:3000/snickelodeon-east/playlist.m3u8
 #EXTINF:-1 tvg-id="snickelodeon-west" tvg-name="Snickelodeon West" group-title="Toonami Aftermath", Snickelodeon West
 http://api.toonamiaftermath.com:3000/snickelodeon-west/playlist.m3u8
 #EXTINF:-1 tvg-id="mtv97" tvg-name="MTV97" group-title="Toonami Aftermath", MTV97
-https://asp11.toonamiaftermath.com:443/livehttporigin/mtv97/UYHx1r-DLPmHp-playlist.m3u8
+https://asp8.toonamiaftermath.com:443/livehttporigin/mtv97/tmw01M-wsSm8Y-playlist.m3u8
 #EXTINF:-1 tvg-id="movies" tvg-name="Movies" group-title="Toonami Aftermath", Movies
-https://asp11.toonamiaftermath.com:443/livehttporigin/movies/UYHx1r-EztkJR-playlist.m3u8
+https://asp8.toonamiaftermath.com:443/livehttporigin/movies/tmw01M-kdW6QR-playlist.m3u8
 #EXTINF:-1 tvg-id="radio" tvg-name="Toonami Aftermath Radio" group-title="Toonami Aftermath", Toonami Aftermath Radio
-https://asp11.toonamiaftermath.com:443/livehttporigin/radio/UYHx1r-iDtU80-playlist.m3u8
+https://asp8.toonamiaftermath.com:443/livehttporigin/radio/tmw01M-yC8Mzs-playlist.m3u8
 #EXTINF:-1 tvg-id="live-code" tvg-name="Live Code" group-title="Toonami Aftermath", Live Code
 http://api.toonamiaftermath.com:3000/live-code/playlist.m3u8
