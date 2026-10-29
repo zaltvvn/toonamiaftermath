@@ -1,17 +1,17 @@
 #EXTM3U x-tvg-url="schedule.xml"
 #EXTINF:-1 tvg-id="toonamiaftermath-east" tvg-name="Toonami Aftermath East" group-title="Toonami Aftermath", Toonami Aftermath East
-https://n4.toonamiaftermath.com:443/livehttporigin/est/mAkW0E-6ncryX-playlist.m3u8
+https://n8.toonamiaftermath.com:443/livehttporigin/est/vY2BQj-5g6d7V-playlist.m3u8
 #EXTINF:-1 tvg-id="toonamiaftermath-west" tvg-name="Toonami Aftermath West" group-title="Toonami Aftermath", Toonami Aftermath West
-https://n4.toonamiaftermath.com:443/livehttporigin/est/mAkW0E-3c4AFR-playlist.m3u8?streamDelay=180
+https://n8.toonamiaftermath.com:443/livehttporigin/est/vY2BQj-iVcN67-playlist.m3u8?streamDelay=180
 #EXTINF:-1 tvg-id="snickelodeon-east" tvg-name="Snickelodeon East" group-title="Toonami Aftermath", Snickelodeon East
 http://api.toonamiaftermath.com:3000/snickelodeon-east/playlist.m3u8
 #EXTINF:-1 tvg-id="snickelodeon-west" tvg-name="Snickelodeon West" group-title="Toonami Aftermath", Snickelodeon West
 http://api.toonamiaftermath.com:3000/snickelodeon-west/playlist.m3u8
 #EXTINF:-1 tvg-id="mtv97" tvg-name="MTV97" group-title="Toonami Aftermath", MTV97
-https://n4.toonamiaftermath.com:443/livehttporigin/mtv97/mAkW0E-eFnN04-playlist.m3u8
+https://n8.toonamiaftermath.com:443/livehttporigin/mtv97/vY2BQj-9hr1j7-playlist.m3u8
 #EXTINF:-1 tvg-id="movies" tvg-name="Movies" group-title="Toonami Aftermath", Movies
-https://n4.toonamiaftermath.com:443/livehttporigin/movies/mAkW0E-1BJnyF-playlist.m3u8
+https://n4.toonamiaftermath.com:443/livehttporigin/movies/vY2BQj-IykgjG-playlist.m3u8
 #EXTINF:-1 tvg-id="radio" tvg-name="Toonami Aftermath Radio" group-title="Toonami Aftermath", Toonami Aftermath Radio
-https://n4.toonamiaftermath.com:443/livehttporigin/radio/mAkW0E-I0z5i5-playlist.m3u8
+https://n4.toonamiaftermath.com:443/livehttporigin/radio/vY2BQj-W6FYAz-playlist.m3u8
 #EXTINF:-1 tvg-id="live-code" tvg-name="Live Code" group-title="Toonami Aftermath", Live Code
 http://api.toonamiaftermath.com:3000/live-code/playlist.m3u8
